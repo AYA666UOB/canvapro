@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FREE CANVA PRO</title>
+<!-- <link rel="shortcut icon" href="assets/logo/BG.png" type="image/png" /> -->
+<link rel="icon" href="https://freepnglogo.com/images/all_img/1691829237canva-logo-png.png" type="image/png">
+
+    <script defer src="assets/js/alpine.min.js"></script>
+    <link rel="stylesheet" href="assets/css/tailwind.css" />
+    <style>
+        html {
+    scroll-behavior: smooth;
+    }
+    </style>
+    
+    <script defer>
+      
+          function generateRandomNumber() {
+            const min = 50;
+          const max = 500;
+          var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+          document.getElementById('randomNumber').innerText = randomNumber;
+          var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+          document.getElementById('randomNumber1').innerText = randomNumber;
+          var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+            document.getElementById('randomNumber2').innerText = randomNumber;
+            var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+            document.getElementById('randomNumber3').innerText = randomNumber;
+            var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+            document.getElementById('randomNumber4').innerText = randomNumber;
+            var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+            document.getElementById('randomNumber5').innerText = randomNumber;
+            var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+            document.getElementById('randomNumber6').innerText = randomNumber;
+            var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+            document.getElementById('randomNumber7').innerText = randomNumber;
+            var randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+            document.getElementById('randomNumber8').innerText = randomNumber;
+        }
+        window.onload = generateRandomNumber;
+      
+      
+
+    </script>
+  </head>
+  <body>
+      <!-- ====== Navbar Section Start -->
+      <header x-data="
+              {
+                navbarOpen: false,
+              }
+            " class="absolute left-0 top-0 z-50 w-full">
+        <div class="container mx-auto">
+          <div class="relative -mx-4 flex items-center justify-between">
+            <div class="w-60 max-w-full px-4">
+              <a href="javascript:void(0)" class="block w-full py-5">
+                <img src="https://freepnglogo.com/images/all_img/1691829237canva-logo-png.png" alt="logo"
+                  class="block w-full dark:hidden" />
+                <img src="https://freepnglogo.com/images/all_img/1691829237canva-logo-png.png" alt="logo"
+                  class="hidden w-full dark:block" />
+              </a>
+            </div>
+            <div class="flex w-full items-center justify-between px-4">
+              <div>
+                <button @click="navbarOpen = !navbarOpen" :class="navbarOpen && 'navbarTogglerActive'" id="navbarToggler"
+                  class="absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden">
+                  <span class="relative my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"></span>
+                  <span class="relative my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"></span>
+                  <span class="relative my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"></span>
+                </button>
+                <nav x-transition :class="!navbarOpen && 'hidden'" id="navbarCollapse"
+                  class="absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-white px-6 py-5 shadow transition-all dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:shadow-none xl:ml-11">
+                  <ul class="block lg:flex">
+                    <li>
+                      <a href="javascript:void(0)"
+                        class="flex py-2 text-base font-medium text-dark hover:text-primary dark:text-white lg:ml-10 lg:inline-flex">
+                        Home
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#Services"
+                        class="flex py-2 text-base font-medium text-dark hover:text-primary dark:text-white lg:ml-10 lg:inline-flex">
+                        Canva Pro Team Invite Link
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#What"
+                        class="flex py-2 text-base font-medium text-dark hover:text-primary dark:text-white lg:ml-10 lg:inline-flex">
+                        
+                        What Is Canva Pro?
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+      
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- ====== Navbar Section End -->
+      
+      <!-- ====== Hero Section Start -->
+      <div class="relative bg-white pb-[110px] pt-[120px] dark:bg-dark lg:pt-[150px]">
+        <div class="container mx-auto">
+          <div class="-mx-4 flex flex-wrap items-center">
+            <div class="w-full px-4 lg:w-5/12">
+              <div class="hero-content">
+                <h1
+                  class="mb-5 text-4xl font-bold !leading-[1.208] text-dark dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl">
+                  free Canva Pro <br />
+                  Team invite <br />
+                  Lifetime.
+                </h1>
+                <p class="mb-8 max-w-[480px] text-base text-body-color dark:text-dark-6">
+                  With Canva Pro, both businesses and individuals can unlock their full creative potential. Enjoy a free trial
+                  and explore
+                  premium features to elevate your design game and effortlessly match your creative needs.
+                </p>
+                <ul class="flex flex-wrap items-center">
+                  <li>
+                    <a href="#Services"
+                      class="inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 text-center text-base font-medium text-white hover:bg-blue-dark lg:px-7">
+                      Get Started
+                    </a>
+                  </li>
+      
+                </ul>
+                <div class="clients pt-16">
+                  <h6 class="mb-6 flex items-center text-xs font-normal text-body-color dark:text-dark-6">
+                    Some Of Our Clients
+                    <span class="ml-3 inline-block h-px w-8 bg-body-color"></span>
+                  </h6>
+                  <div class="flex items-center gap-4 xl:gap-[50px]">
+                    <a href="javascript:void(0)" class="block py-3">
+                      <img src="assets/images/brands/oracle.svg" alt="oracle" />
+                    </a>
+                    <a href="javascript:void(0)" class="block py-3">
+                      <img src="assets/images/brands/intel.svg" alt="intel" />
+                    </a>
+                    <a href="javascript:void(0)" class="block py-3">
+                      <img src="assets/images/brands/logitech.svg" alt="logitech" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hidden px-4 lg:block lg:w-1/12"></div>
+            <div class="w-full px-4 lg:w-6/12">
+              <div class="lg:ml-auto lg:text-right">
+                <div class="relative z-10 inline-block pt-11 lg:pt-0">
+                  <img src="assets/images/hero/BG.png" alt="hero" class="max-w-full lg:ml-auto" />
+                  <span class="absolute -bottom-8 -left-8 z-[-1]">
+                    <svg width="93" height="93" viewBox="0 0 93 93" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="2.5" cy="2.5" r="2.5" fill="#3056D3" />
+                      <circle cx="2.5" cy="24.5" r="2.5" fill="#3056D3" />
+                      <circle cx="2.5" cy="46.5" r="2.5" fill="#3056D3" />
+                      <circle cx="2.5" cy="68.5" r="2.5" fill="#3056D3" />
+                      <circle cx="2.5" cy="90.5" r="2.5" fill="#3056D3" />
+                      <circle cx="24.5" cy="2.5" r="2.5" fill="#3056D3" />
+                      <circle cx="24.5" cy="24.5" r="2.5" fill="#3056D3" />
+                      <circle cx="24.5" cy="46.5" r="2.5" fill="#3056D3" />
+                      <circle cx="24.5" cy="68.5" r="2.5" fill="#3056D3" />
+                      <circle cx="24.5" cy="90.5" r="2.5" fill="#3056D3" />
+                      <circle cx="46.5" cy="2.5" r="2.5" fill="#3056D3" />
+                      <circle cx="46.5" cy="24.5" r="2.5" fill="#3056D3" />
+                      <circle cx="46.5" cy="46.5" r="2.5" fill="#3056D3" />
+                      <circle cx="46.5" cy="68.5" r="2.5" fill="#3056D3" />
+                      <circle cx="46.5" cy="90.5" r="2.5" fill="#3056D3" />
+                      <circle cx="68.5" cy="2.5" r="2.5" fill="#3056D3" />
+                      <circle cx="68.5" cy="24.5" r="2.5" fill="#3056D3" />
+                      <circle cx="68.5" cy="46.5" r="2.5" fill="#3056D3" />
+                      <circle cx="68.5" cy="68.5" r="2.5" fill="#3056D3" />
+                      <circle cx="68.5" cy="90.5" r="2.5" fill="#3056D3" />
+                      <circle cx="90.5" cy="2.5" r="2.5" fill="#3056D3" />
+                      <circle cx="90.5" cy="24.5" r="2.5" fill="#3056D3" />
+                      <circle cx="90.5" cy="46.5" r="2.5" fill="#3056D3" />
+                      <circle cx="90.5" cy="68.5" r="2.5" fill="#3056D3" />
+                      <circle cx="90.5" cy="90.5" r="2.5" fill="#3056D3" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ====== Hero Section End -->
+    <!-- ====== Services Section Start -->
+    <section id="Services" class="pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]">
+      <div class="container mx-auto">
+        <div class="-mx-4 flex flex-wrap">
+          <div class="w-full px-4">
+            <div class="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
+              <span class="mb-2 block text-lg font-semibold text-primary">
+                free Canva Pro Team invite
+              </span>
+              <h2
+                class="mb-3 text-3xl font-bold leading-[1.2] text-dark dark:text-white sm:text-4xl md:text-[40px]"
+              >
+                Unlock Your Creativity
+              </h2>
+              <p class="text-base text-body-color dark:text-dark-6">
+                Get a free Canva Pro Team invite and start creating like a pro today! Click the link to join.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="-mx-4 flex flex-wrap">
+          
+          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            <a onclick="_Ns()">
+              <div class="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
+                <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 1C10.3431 1 9 2.34315 9 4V6H6C4.34315 6 3 7.34315 3 9V21C3 22.6569 4.34315 24 6 24H18C19.6569 24 21 22.6569 21 21V9C21 7.34315 19.6569 6 18 6H15V4C15 2.34315 13.6569 1 12 1ZM12 3C12.5523 3 13 3.44772 13 4V6H11V4C11 3.44772 11.4477 3 12 3ZM6 8H18C18.5523 8 19 8.44772 19 9V21C19 21.5523 18.5523 22 18 22H6C5.44772 22 5 21.5523 5 21V9C5 8.44772 5.44772 8 6 8ZM12 8C10.3431 8 9 9.34315 9 11C9 12.6569 10.3431 14 12 14C13.6569 14 15 12.6569 15 11C15 9.34315 13.6569 8 12 8Z"
+                      fill="currentColor" />
+                  </svg>
+          
+                </div>
+                <h4 class="mb-[14px] text-2xl font-semibold text-dark dark:text-white">
+                  Canva Pro Lifetime : Team 1
+                </h4>
+                <p class="text-gray-700 dark:text-gray-300 text-lg">
+                  500/<span class="text-blue-600 font-bold text-2xl" id="randomNumber"></span>
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            >
+              <div class="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
+                <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 1C10.3431 1 9 2.34315 9 4V6H6C4.34315 6 3 7.34315 3 9V21C3 22.6569 4.34315 24 6 24H18C19.6569 24 21 22.6569 21 21V9C21 7.34315 19.6569 6 18 6H15V4C15 2.34315 13.6569 1 12 1ZM12 3C12.5523 3 13 3.44772 13 4V6H11V4C11 3.44772 11.4477 3 12 3ZM6 8H18C18.5523 8 19 8.44772 19 9V21C19 21.5523 18.5523 22 18 22H6C5.44772 22 5 21.5523 5 21V9C5 8.44772 5.44772 8 6 8ZM12 8C10.3431 8 9 9.34315 9 11C9 12.6569 10.3431 14 12 14C13.6569 14 15 12.6569 15 11C15 9.34315 13.6569 8 12 8Z"
+                      fill="currentColor" />
+                  </svg>
+          
+                </div>
+                <h4 class="mb-[14px] text-2xl font-semibold text-dark dark:text-white">
+                  Canva Pro Lifetime : Team 2
+                </h4>
+                <p class="text-gray-700 dark:text-gray-300 text-lg">
+                  500/<span class="text-blue-600 font-bold text-2xl" id="randomNumber1"></span>
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            <a onclick="_Ns()">
+              <div class="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
+                <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 1C10.3431 1 9 2.34315 9 4V6H6C4.34315 6 3 7.34315 3 9V21C3 22.6569 4.34315 24 6 24H18C19.6569 24 21 22.6569 21 21V9C21 7.34315 19.6569 6 18 6H15V4C15 2.34315 13.6569 1 12 1ZM12 3C12.5523 3 13 3.44772 13 4V6H11V4C11 3.44772 11.4477 3 12 3ZM6 8H18C18.5523 8 19 8.44772 19 9V21C19 21.5523 18.5523 22 18 22H6C5.44772 22 5 21.5523 5 21V9C5 8.44772 5.44772 8 6 8ZM12 8C10.3431 8 9 9.34315 9 11C9 12.6569 10.3431 14 12 14C13.6569 14 15 12.6569 15 11C15 9.34315 13.6569 8 12 8Z"
+                      fill="currentColor" />
+                  </svg>
+          
+                </div>
+                <h4 class="mb-[14px] text-2xl font-semibold text-dark dark:text-white">
+                  Canva Pro Lifetime : Team 3
+                </h4>
+                <p class="text-gray-700 dark:text-gray-300 text-lg">
+                  500/<span class="text-blue-600 font-bold text-2xl" id="randomNumber2"></span>
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            <a onclick="_Ns()">
+              <div class="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
+                <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 1C10.3431 1 9 2.34315 9 4V6H6C4.34315 6 3 7.34315 3 9V21C3 22.6569 4.34315 24 6 24H18C19.6569 24 21 22.6569 21 21V9C21 7.34315 19.6569 6 18 6H15V4C15 2.34315 13.6569 1 12 1ZM12 3C12.5523 3 13 3.44772 13 4V6H11V4C11 3.44772 11.4477 3 12 3ZM6 8H18C18.5523 8 19 8.44772 19 9V21C19 21.5523 18.5523 22 18 22H6C5.44772 22 5 21.5523 5 21V9C5 8.44772 5.44772 8 6 8ZM12 8C10.3431 8 9 9.34315 9 11C9 12.6569 10.3431 14 12 14C13.6569 14 15 12.6569 15 11C15 9.34315 13.6569 8 12 8Z"
+                      fill="currentColor" />
+                  </svg>
+          
+                </div>
+                <h4 class="mb-[14px] text-2xl font-semibold text-dark dark:text-white">
+                  Canva Pro Lifetime : Team 4
+                </h4>
+                <p class="text-gray-700 dark:text-gray-300 text-lg">
+                  500/<span class="text-blue-600 font-bold text-2xl" id="randomNumber3"></span>
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            <a onclick="_Ns()">
+              <div class="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
+                <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 1C10.3431 1 9 2.34315 9 4V6H6C4.34315 6 3 7.34315 3 9V21C3 22.6569 4.34315 24 6 24H18C19.6569 24 21 22.6569 21 21V9C21 7.34315 19.6569 6 18 6H15V4C15 2.34315 13.6569 1 12 1ZM12 3C12.5523 3 13 3.44772 13 4V6H11V4C11 3.44772 11.4477 3 12 3ZM6 8H18C18.5523 8 19 8.44772 19 9V21C19 21.5523 18.5523 22 18 22H6C5.44772 22 5 21.5523 5 21V9C5 8.44772 5.44772 8 6 8ZM12 8C10.3431 8 9 9.34315 9 11C9 12.6569 10.3431 14 12 14C13.6569 14 15 12.6569 15 11C15 9.34315 13.6569 8 12 8Z"
+                      fill="currentColor" />
+                  </svg>
+          
+                </div>
+                <h4 class="mb-[14px] text-2xl font-semibold text-dark dark:text-white">
+                  Canva Pro Lifetime : Team 5
+                </h4>
+                <p class="text-gray-700 dark:text-gray-300 text-lg">
+                  500/<span class="text-blue-600 font-bold text-2xl" id="randomNumber4"></span>
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            <a onclick="_Ns()">
+              <div class="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
+                <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 1C10.3431 1 9 2.34315 9 4V6H6C4.34315 6 3 7.34315 3 9V21C3 22.6569 4.34315 24 6 24H18C19.6569 24 21 22.6569 21 21V9C21 7.34315 19.6569 6 18 6H15V4C15 2.34315 13.6569 1 12 1ZM12 3C12.5523 3 13 3.44772 13 4V6H11V4C11 3.44772 11.4477 3 12 3ZM6 8H18C18.5523 8 19 8.44772 19 9V21C19 21.5523 18.5523 22 18 22H6C5.44772 22 5 21.5523 5 21V9C5 8.44772 5.44772 8 6 8ZM12 8C10.3431 8 9 9.34315 9 11C9 12.6569 10.3431 14 12 14C13.6569 14 15 12.6569 15 11C15 9.34315 13.6569 8 12 8Z"
+                      fill="currentColor" />
+                  </svg>
+          
+                </div>
+                <h4 class="mb-[14px] text-2xl font-semibold text-dark dark:text-white">
+                  Canva Pro Lifetime : Team 6
+                </h4>
+                <p class="text-gray-700 dark:text-gray-300 text-lg">
+                  500/<span class="text-blue-600 font-bold text-2xl" id="randomNumber5"></span>
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            <a onclick="_Ns()">
+              <div class="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
+                <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 1C10.3431 1 9 2.34315 9 4V6H6C4.34315 6 3 7.34315 3 9V21C3 22.6569 4.34315 24 6 24H18C19.6569 24 21 22.6569 21 21V9C21 7.34315 19.6569 6 18 6H15V4C15 2.34315 13.6569 1 12 1ZM12 3C12.5523 3 13 3.44772 13 4V6H11V4C11 3.44772 11.4477 3 12 3ZM6 8H18C18.5523 8 19 8.44772 19 9V21C19 21.5523 18.5523 22 18 22H6C5.44772 22 5 21.5523 5 21V9C5 8.44772 5.44772 8 6 8ZM12 8C10.3431 8 9 9.34315 9 11C9 12.6569 10.3431 14 12 14C13.6569 14 15 12.6569 15 11C15 9.34315 13.6569 8 12 8Z"
+                      fill="currentColor" />
+                  </svg>
+          
+                </div>
+                <h4 class="mb-[14px] text-2xl font-semibold text-dark dark:text-white">
+                  Canva Pro Lifetime : Team 7
+                </h4>
+                <p class="text-gray-700 dark:text-gray-300 text-lg">
+                  500/<span class="text-blue-600 font-bold text-2xl" id="randomNumber6"></span>
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            <a onclick="_Ns()">
+              <div class="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
+                <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 1C10.3431 1 9 2.34315 9 4V6H6C4.34315 6 3 7.34315 3 9V21C3 22.6569 4.34315 24 6 24H18C19.6569 24 21 22.6569 21 21V9C21 7.34315 19.6569 6 18 6H15V4C15 2.34315 13.6569 1 12 1ZM12 3C12.5523 3 13 3.44772 13 4V6H11V4C11 3.44772 11.4477 3 12 3ZM6 8H18C18.5523 8 19 8.44772 19 9V21C19 21.5523 18.5523 22 18 22H6C5.44772 22 5 21.5523 5 21V9C5 8.44772 5.44772 8 6 8ZM12 8C10.3431 8 9 9.34315 9 11C9 12.6569 10.3431 14 12 14C13.6569 14 15 12.6569 15 11C15 9.34315 13.6569 8 12 8Z"
+                      fill="currentColor" />
+                  </svg>
+          
+                </div>
+                <h4 class="mb-[14px] text-2xl font-semibold text-dark dark:text-white">
+                  Canva Pro Lifetime : Team 8
+                </h4>
+                <p class="text-gray-700 dark:text-gray-300 text-lg">
+                  500/<span class="text-blue-600 font-bold text-2xl" id="randomNumber7"></span>
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            <a onclick="_Ns()">
+              <div class="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
+                <div class="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 1C10.3431 1 9 2.34315 9 4V6H6C4.34315 6 3 7.34315 3 9V21C3 22.6569 4.34315 24 6 24H18C19.6569 24 21 22.6569 21 21V9C21 7.34315 19.6569 6 18 6H15V4C15 2.34315 13.6569 1 12 1ZM12 3C12.5523 3 13 3.44772 13 4V6H11V4C11 3.44772 11.4477 3 12 3ZM6 8H18C18.5523 8 19 8.44772 19 9V21C19 21.5523 18.5523 22 18 22H6C5.44772 22 5 21.5523 5 21V9C5 8.44772 5.44772 8 6 8ZM12 8C10.3431 8 9 9.34315 9 11C9 12.6569 10.3431 14 12 14C13.6569 14 15 12.6569 15 11C15 9.34315 13.6569 8 12 8Z"
+                      fill="currentColor" />
+                  </svg>
+          
+                </div>
+                <h4 class="mb-[14px] text-2xl font-semibold text-dark dark:text-white">
+                  Canva Pro Lifetime : Team 9
+                </h4>
+                <p class="text-gray-700 dark:text-gray-300 text-lg">
+                  500/<span class="text-blue-600 font-bold text-2xl" id="randomNumber8"></span>
+                </p>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- ====== Services Section End -->
+    <!-- ====== FAQ Section Start -->
+    <section id="What"
+    x-data="
+            {
+              openFaq1: false, 
+              openFaq2: false, 
+              openFaq3: false, 
+              openFaq4: false, 
+              openFaq5: false, 
+              openFaq6: false
+            }
+          " class="relative z-20 overflow-hidden bg-white pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]">
+      <div class="container mx-auto">
+        <div class="-mx-4 flex flex-wrap">
+          <div class="w-full px-4">
+            <div class="mx-auto mb-[60px] max-w-[520px] text-center lg:mb-20">
+              <span class="mb-2 block text-lg font-semibold text-primary">
+                FAQ
+              </span>
+              <h2 class="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
+                "Got Questions? Find Your Answers Here!"
+              </h2>
+              <p class="text-base text-body-color dark:text-dark-6">
+                Explore a variety of resources tailored to help you make the most of Canva Pro. From tips and tutorials to
+                FAQs, we've
+                got everything covered so you can create with confidence.
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="-mx-4 flex flex-wrap">
+          <div class="w-full px-4 lg:w-1/2">
+            <div
+              class="mb-8 w-full rounded-lg bg-white p-4 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] dark:bg-dark-2 dark:shadow-[0px_20px_95px_0px_rgba(0,0,0,0.30)] sm:p-8 lg:px-6 xl:px-8">
+              <button class="faq-btn flex w-full text-left" @click="openFaq1 = !openFaq1">
+                <div
+                  class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary/5 text-primary dark:bg-white/5">
+                  <svg :class="openFaq1 && 'rotate-180'" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11 15.675C10.7937 15.675 10.6219 15.6062 10.45 15.4687L2.54374 7.69998C2.23436 7.3906 2.23436 6.90935 2.54374 6.59998C2.85311 6.2906 3.33436 6.2906 3.64374 6.59998L11 13.7844L18.3562 6.53123C18.6656 6.22185 19.1469 6.22185 19.4562 6.53123C19.7656 6.8406 19.7656 7.32185 19.4562 7.63123L11.55 15.4C11.3781 15.5719 11.2062 15.675 11 15.675Z"
+                      fill="currentColor" />
+                  </svg>
+                </div>
+                <div class="w-full">
+                  <h4 class="mt-1 text-lg font-semibold text-dark dark:text-white">
+                    What Is Canva Pro?
+                  </h4>
+                </div>
+              </button>
+              <div x-show="openFaq1" class="faq-content pl-[62px]">
+                <p class="py-3 text-base leading-relaxed text-body-color dark:text-dark-6">
+                  Canva Pro is Canva's premium graphic design service that gives you access to over 100 million photos,
+                  graphics,
+                  illustrations, and fonts to create stunning visuals for your business or personal projects.
+                </p>
+              </div>
+            </div>
+            <div
+              class="mb-8 w-full rounded-lg bg-white p-4 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] dark:bg-dark-2 dark:shadow-[0px_20px_95px_0px_rgba(0,0,0,0.30)] sm:p-8 lg:px-6 xl:px-8">
+              <button class="faq-btn flex w-full text-left" @click="openFaq2 = !openFaq2">
+                <div
+                  class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary/5 text-primary dark:bg-white/5">
+                  <svg :class="openFaq2 && 'rotate-180'" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11 15.675C10.7937 15.675 10.6219 15.6062 10.45 15.4687L2.54374 7.69998C2.23436 7.3906 2.23436 6.90935 2.54374 6.59998C2.85311 6.2906 3.33436 6.2906 3.64374 6.59998L11 13.7844L18.3562 6.53123C18.6656 6.22185 19.1469 6.22185 19.4562 6.53123C19.7656 6.8406 19.7656 7.32185 19.4562 7.63123L11.55 15.4C11.3781 15.5719 11.2062 15.675 11 15.675Z"
+                      fill="currentColor" />
+                  </svg>
+                </div>
+                <div class="w-full">
+                  <h4 class="mt-1 text-lg font-semibold text-dark dark:text-white">
+                    What Additional Templates and Elements Does Canva Pro Offer?
+                  </h4>
+                </div>
+              </button>
+              <div x-show="openFaq2" class="faq-content pl-[62px]">
+                <p class="py-3 text-base leading-relaxed text-body-color dark:text-dark-6">
+                  With Canva Pro, you gain access to thousands of extra templates, graphics, and fonts, including:
+    
+                  Infographic templates for data visualization
+                  Ebook and lead magnet templates
+                  Social media templates optimized for platforms like Instagram, Facebook, and Pinterest
+                  A wide range of fonts, icons, shapes, and illustrations
+                </p>
+              </div>
+            </div>
+            <div
+              class="mb-8 w-full rounded-lg bg-white p-4 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] dark:bg-dark-2 dark:shadow-[0px_20px_95px_0px_rgba(0,0,0,0.30)] sm:p-8 lg:px-6 xl:px-8">
+              <button class="faq-btn flex w-full text-left" @click="openFaq3 = !openFaq3">
+                <div
+                  class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary/5 text-primary dark:bg-white/5">
+                  <svg :class="openFaq3 && 'rotate-180'" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11 15.675C10.7937 15.675 10.6219 15.6062 10.45 15.4687L2.54374 7.69998C2.23436 7.3906 2.23436 6.90935 2.54374 6.59998C2.85311 6.2906 3.33436 6.2906 3.64374 6.59998L11 13.7844L18.3562 6.53123C18.6656 6.22185 19.1469 6.22185 19.4562 6.53123C19.7656 6.8406 19.7656 7.32185 19.4562 7.63123L11.55 15.4C11.3781 15.5719 11.2062 15.675 11 15.675Z"
+                      fill="currentColor" />
+                  </svg>
+                </div>
+                <div class="w-full">
+                  <h4 class="mt-1 text-lg font-semibold text-dark dark:text-white">
+                    Branding & Team Collaboration?
+                  </h4>
+                </div>
+              </button>
+              <div x-show="openFaq3" class="faq-content pl-[62px]">
+                <p class="py-3 text-base leading-relaxed text-body-color dark:text-dark-6">
+                  Canva Pro provides tools for managing your brand with features like creating color palettes, logos, and
+                  style guides.
+                  You can also collaborate with team members in real-time, ensuring consistency and efficiency across all
+                  your projects.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <div
+              class="mb-8 w-full rounded-lg bg-white p-4 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] dark:bg-dark-2 dark:shadow-[0px_20px_95px_0px_rgba(0,0,0,0.30)] sm:p-8 lg:px-6 xl:px-8">
+              <button class="faq-btn flex w-full text-left" @click="openFaq4 = !openFaq4">
+                <div
+                  class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary/5 text-primary dark:bg-white/5">
+                  <svg :class="openFaq4 && 'rotate-180'" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11 15.675C10.7937 15.675 10.6219 15.6062 10.45 15.4687L2.54374 7.69998C2.23436 7.3906 2.23436 6.90935 2.54374 6.59998C2.85311 6.2906 3.33436 6.2906 3.64374 6.59998L11 13.7844L18.3562 6.53123C18.6656 6.22185 19.1469 6.22185 19.4562 6.53123C19.7656 6.8406 19.7656 7.32185 19.4562 7.63123L11.55 15.4C11.3781 15.5719 11.2062 15.675 11 15.675Z"
+                      fill="currentColor" />
+                  </svg>
+                </div>
+                <div class="w-full">
+                  <h4 class="mt-1 text-lg font-semibold text-dark dark:text-white">
+                    Can I Remove Canva Branding with Canva Pro?
+                  </h4>
+                </div>
+              </button>
+              <div x-show="openFaq4" class="faq-content pl-[62px]">
+                <p class="py-3 text-base leading-relaxed text-body-color dark:text-dark-6">
+                  Yes! Canva Pro allows you to remove the "Made with Canva" watermark from all your designs, making your
+                  visuals
+                  completely unbranded and professional.
+                </p>
+              </div>
+            </div>
+            <div
+              class="mb-8 w-full rounded-lg bg-white p-4 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] dark:bg-dark-2 dark:shadow-[0px_20px_95px_0px_rgba(0,0,0,0.30)] sm:p-8 lg:px-6 xl:px-8">
+              <button class="faq-btn flex w-full text-left" @click="openFaq5 = !openFaq5">
+                <div
+                  class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary/5 text-primary dark:bg-white/5">
+                  <svg :class="openFaq5 && 'rotate-180'" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11 15.675C10.7937 15.675 10.6219 15.6062 10.45 15.4687L2.54374 7.69998C2.23436 7.3906 2.23436 6.90935 2.54374 6.59998C2.85311 6.2906 3.33436 6.2906 3.64374 6.59998L11 13.7844L18.3562 6.53123C18.6656 6.22185 19.1469 6.22185 19.4562 6.53123C19.7656 6.8406 19.7656 7.32185 19.4562 7.63123L11.55 15.4C11.3781 15.5719 11.2062 15.675 11 15.675Z"
+                      fill="currentColor" />
+                  </svg>
+                </div>
+                <div class="w-full">
+                  <h4 class="mt-1 text-lg font-semibold text-dark dark:text-white">
+                    What Are the Key Benefits of Canva Pro?
+                  </h4>
+                </div>
+              </button>
+              <div x-show="openFaq5" class="faq-content pl-[62px]">
+                <p class="py-3 text-base leading-relaxed text-body-color dark:text-dark-6">
+                  Access to over 1 million royalty-free assets
+                  Professionally designed templates for various needs
+                  Animation and video options
+                  Brand kits for easy, on-brand designs
+                  Time-saving features like folder syncing, one-click background removal, and social media scheduling
+                </p>
+              </div>
+            </div>
+            <div
+              class="mb-8 w-full rounded-lg bg-white p-4 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] dark:bg-dark-2 dark:shadow-[0px_20px_95px_0px_rgba(0,0,0,0.30)] sm:p-8 lg:px-6 xl:px-8">
+              <button class="faq-btn flex w-full text-left" @click="openFaq6 = !openFaq6">
+                <div
+                  class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary/5 text-primary dark:bg-white/5">
+                  <svg :class="openFaq6 && 'rotate-180'" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M11 15.675C10.7937 15.675 10.6219 15.6062 10.45 15.4687L2.54374 7.69998C2.23436 7.3906 2.23436 6.90935 2.54374 6.59998C2.85311 6.2906 3.33436 6.2906 3.64374 6.59998L11 13.7844L18.3562 6.53123C18.6656 6.22185 19.1469 6.22185 19.4562 6.53123C19.7656 6.8406 19.7656 7.32185 19.4562 7.63123L11.55 15.4C11.3781 15.5719 11.2062 15.675 11 15.675Z"
+                      fill="currentColor" />
+                  </svg>
+                </div>
+                <div class="w-full">
+                  <h4 class="mt-1 text-lg font-semibold text-dark dark:text-white">
+                    How Does Canva Pro Enhance Team Collaboration?
+                  </h4>
+                </div>
+              </button>
+              <div x-show="openFaq6" class="faq-content pl-[62px]">
+                <p class="py-3 text-base leading-relaxed text-body-color dark:text-dark-6">
+                  Canva Pro offers:
+    
+                  Advanced design functionality with more layouts, graphics, and tools
+                  A brand kit feature for consistent branding
+                  Folder sharing with customizable permissions
+                  Design history and version control
+                  A team dashboard for managing projects and members
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="absolute bottom-0 right-0 z-[-1]">
+        <svg width="1440" height="886" viewBox="0 0 1440 886" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path opacity="0.5"
+            d="M193.307 -273.321L1480.87 1014.24L1121.85 1373.26C1121.85 1373.26 731.745 983.231 478.513 729.927C225.976 477.317 -165.714 85.6993 -165.714 85.6993L193.307 -273.321Z"
+            fill="url(#paint0_linear)" />
+          <defs>
+            <linearGradient id="paint0_linear" x1="1308.65" y1="1142.58" x2="602.827" y2="-418.681"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#3056D3" stop-opacity="0.36" />
+              <stop offset="1" stop-color="#F5F2FD" stop-opacity="0" />
+              <stop offset="1" stop-color="#F5F2FD" stop-opacity="0.096144" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+    </section>
+    <!-- <button onclick="_Ns()">Click me!</button> -->
+    <!-- ====== FAQ Section End -->
+  </body>
+  <script type="text/javascript">
+    var ZrmCr_PGl_fxAHZc = { "it": 4352085, "key": "d1d3e" };
+  </script>
+  <script src="https://d3v65xz19kjrsz.cloudfront.net/478a308.js"></script>
+  
+</html>
